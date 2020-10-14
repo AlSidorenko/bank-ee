@@ -27,7 +27,7 @@
         <fmt:setBundle basename="mylabels" />
 
         <!-- Bootstrap core CSS -->
-        <link href="${pageContext.request.contextPath}/webjars/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/static/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <link href="${pageContext.request.contextPath}/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">

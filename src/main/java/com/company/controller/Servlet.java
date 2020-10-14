@@ -47,9 +47,9 @@ public class Servlet extends HttpServlet {
         commands.put("user/info", new UserInfoCommand());
         commands.put("user/addCurrentAccount", new UserAddCurrentAccountCommand());
         // add Deposits
-        commands.put("user/addClassicDeposit", new UserAddClassicDepositCommand());
+        //commands.put("user/addClassicDeposit", new UserAddClassicDepositCommand());
         // TODO ...
-        //commands.put("user/addSavingDeposit", new UserAddSavingDepositCommand());
+        commands.put("user/addSavingDeposit", new UserAddSavingDepositCommand());
 
         commands.put("admin", new AdminBasisCommand());
     }

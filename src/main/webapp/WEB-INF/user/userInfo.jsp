@@ -19,7 +19,7 @@
     <fmt:setLocale value="${sessionScope.locale}"/>
     <fmt:setBundle basename="mylabels"/>
 
-    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
     <title>User Info</title>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.css">
 </head>

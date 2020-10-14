@@ -1,5 +1,10 @@
 package com.company;
 
+import com.company.model.dao.impl.JDBCAccountDao;
+import com.company.model.dao.impl.JDBCUserDao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -19,7 +24,7 @@ public class App {
         //Account account = new Account();
         //System.out.println(account.getCodeAccount());
 
-        /*
+
         Connection connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/ways?serverTimezone=UTC",
                 "admin" ,
@@ -38,7 +43,7 @@ public class App {
 
         connection.close();
         System.out.println("Disconnect!");
-        */
+
 
         Date dt = new Date(System.currentTimeMillis());
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss:SS");
